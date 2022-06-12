@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Fredoka+One&family=Kanit&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+  overflow-y: hidden;
+}
+body {
+  background-color: #ff9c5f;
+  display: flex;
+  
+}
+.parte1{
+  margin-left:90px;
+}
+
+h1 {
+  color: #ffff;
+  position: absolute;
+  left: 180px;
+  height: 169px;
+  top: 5px;
+
+  font-family: "fredoka one";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 110px;
+  line-height: 169px;
+}
+h3 {
+  color: #ffff;
+  position: absolute;
+  left: 209px;
+  width: 346px;
+  top: 138px;
+  font-size: 20px;
+  line-height: 122%;
+  text-align: center;
+  font-family: "fraunces";
+}
+
+#backInicial {
+  position: relative;
+  top: 12rem;
+  width: 29rem;
+    height: 27rem;
+ 
+}
+#inicial {
+  position: relative;
+  bottom: 16rem;
+  width: 29.6rem;
+  height: 27rem;
+}
+
+section {
+  position: relative;
+  top: 80px;
+  background-color: #FF6B0F;
+  width: 355px;
+  height: 500px;
+  right: 140px;
+  border-radius: 15px;
+
+  padding-top: 8%;
+  padding-left:4%;
+  font-family: 'kanit';
+}
+
+h2 {
+    margin-bottom: 80px;
+  color: #ff9c5f;
+  width: 60%;
+}
+
+.Spans{
+  font-family: 'kanit';
+  color: #ffff;
+}
+.inputs{
+width: 250px;
+height: 39px;
+padding-left: 14px;
+
+border-style: none;
+border-radius: 8px;
+
+box-shadow: 3px 2px 2px rgb(75, 71, 71);
+}
+#senha{
+padding-top:5px;
+}
+.inputs:focus{
+  box-shadow: 0 0 0;
+  outline: 0;
+}
+a{
+ text-decoration: none;
+ color: black;
+}
+a:hover{
+  color:rgb(37, 37, 37);
+}
+#aqui{
+  font-size: 12px;
+  padding-right: 16%;
+  color:#ffff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.botão{
+margin-top:3% ;
+  width: 86%;
+  height: 40px;
+  border-radius: 12px;
+  background-color: #ffff;
+  color: #ff9c5f;
+  border: none;
+  cursor: pointer;
+}
+.botão:hover{
+  background-color: rgb(240, 236, 236);
+}
