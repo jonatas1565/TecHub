@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Fredoka+One&family=Kanit&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+  overflow-y: hidden;
+}
+body {
+  background-color: #ff9c5f;
+  display: flex;
+  
+}
+.parte1{
+  margin-left:90px;
+}
+
+h1 {
+  color: #ffff;
+  position: absolute;
+  left: 180px;
+  height: 169px;
+  top: 45px;
+
+  font-family: "fredoka one";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 110px;
+  line-height: 169px;
+}
+h3 {
+  color: #ffff;
+  position: absolute;
+  left: 228px;
+  height: 169px;
+  top: 195px;
+  font-size: 20px;
+  line-height: 122%;
+  text-align: center;
+  font-family: "fraunces";
+}
+
+#backInicial {
+  position: relative;
+  top: 14rem;
+}
+#inicial {
+  position: relative;
+  bottom: 14.5rem;
+}
+
+section {
+  position: relative;
+  top: 80px;
+  background-color: #ffff;
+  width: 355px;
+  height: 500px;
+  right: 140px;
+  border-radius: 15px;
+
+  padding-top: 90px;
+  padding-left:60px;
+  font-family: 'kanit';
+}
+
+h2 {
+    margin-bottom: 80px;
+  color: #ff9c5f;
+  width: 60%;
+}
+
+#registrar{
+    width:190px;
+    height:70px;
+    background-color: #FF6B0F;
+    border: none;
+    border-radius: 12px;
+
+    font-family: 'Kanit';
+    color: #fff;
+}
+#registrar:hover{
+    cursor: pointer;
+    background-color: #fc6000;
+}
+#login{
+    width:190px;
+    height:70px;
+    background-color: #ffff;
+    border: 1px, solid;
+    border-radius: 12px;
+    margin-top: 10px;
+    color: #F8853D;
+    border-color: #F8853D;
+
+    font-family: 'kanit';
+
+}
+#login:hover{
+    cursor: pointer;
+    background-color: rgba(238, 235, 235, 0.966);
+}
