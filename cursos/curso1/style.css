@@ -44,22 +44,7 @@ h1{
 .icons{
     color: #ffff !important;
 }
-.card{
-    margin-left: 0.2%;
-    margin-top: 1%;
-}
-.my-slider{
-   display: flex;
-}
-/* carrossel*/
-.tns-controls{
-    display: none;
-   }
-   .tns-nav{
-     display: none;
-   }
-
-   .mobile-menu {
+.mobile-menu {
     display: none;
     cursor: pointer;
   }
@@ -70,6 +55,12 @@ h1{
     background: #fff;
     margin: 8px;
     transition: 0.3s;
+  }
+
+  iframe{
+    margin-left: 28%;
+    margin-top: 6%;
+
   }
   @media screen and (max-width: 768px){
     body{
@@ -100,6 +91,7 @@ h1{
       margin-right: 5%;
     }
   }
+ 
   h3{
     padding-top:56px;
     font-family: 'kanit';
