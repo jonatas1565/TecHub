@@ -32,7 +32,6 @@ h3 {
   color: #ffff;
   position: absolute;
   left: 228px;
-  height: 169px;
   top: 195px;
   font-size: 20px;
   line-height: 122%;
@@ -99,4 +98,52 @@ h2 {
 #login:hover{
     cursor: pointer;
     background-color: rgba(238, 235, 235, 0.966);
+}
+
+@media screen and (max-width: 768px){
+  *{
+    overflow-x: hidden;
+  }
+  body{
+    display: inline-block;
+  }
+h1{
+font-size: 80px;
+left: 5% ;
+top:0;
+}
+h2{
+  margin-bottom: 0; 
+    color: #FFF;
+     width: 100%;
+}
+h3{
+  left: 10%;
+  top: 19%;
+}
+section{
+  position: initial;
+  padding-top: 0;
+  background-color: #ff9c5f;
+  padding-left: 13%;
+}
+button{
+  margin-left: 15%
+}
+.parte1{
+  
+  margin-left: 20%;
+
+}
+#backInicial{
+  left: -3%;
+  width: 93%;
+  top: 10rem;
+}
+#inicial{
+  right: 3%;
+  width: 88%;
+  height: 100%;
+  bottom: 3rem;
+}
 }
