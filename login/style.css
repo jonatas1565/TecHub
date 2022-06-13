@@ -126,3 +126,35 @@ margin-top:3% ;
 .botão:hover{
   background-color: rgb(240, 236, 236);
 }
+@media screen and (max-width: 768px){
+  *{
+    overflow-y: unset;
+  }
+  .parte1 {
+    margin-left: 0; 
+  }
+  h1{
+    font-size: 80px;
+    left: 5% ;
+    top:0;
+    }
+    #aqui{
+      padding-right: 22%;
+    }
+    #backInicial{
+      display:none;
+    }
+    #inicial{
+      display:none;
+    }
+    h3{
+      left: 10%;
+      width: 76%
+    }
+    section{
+      top: 13rem;
+      left: 7px;
+      height: 25rem;
+      padding-left:11%;
+    }
+}
