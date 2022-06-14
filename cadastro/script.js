@@ -4,16 +4,14 @@ function Cadastro() {
   const senha = document.querySelector("#senha").value;
   const usuario = document.querySelector("#user").value;
   const email = document.querySelector("#email").value;
-  const curso = document.querySelector("#cursos").value;
   localStorage.setItem("user", usuario);
 
   localStorage.setItem("email", email);
-  localStorage.setItem("cursos", curso)
+
   localStorage.setItem("pass", senha);
   if (usuario == "" || email == "" || senha == ""){
     alert("Preencha todos os campos!");
   } else {
-  
     location.href = "../login/login.html";
   }
   
