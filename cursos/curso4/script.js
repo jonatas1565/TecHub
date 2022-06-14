@@ -1,38 +1,4 @@
-  let slider = tns({
-    container : ".my-slider",
-    "items": 4,
-  "rewind": false,
-  "controls": true,
-  "swipeAngle": false,
-  "speed": 800,
-  autoplay : true,
-  autoplayButtonOutput : false,
-  "mouseDrag" : true,
-  
-  "responsive": {
-    
-    "300": {
-      "items": 1.2,
-      "controls": true,
-      "edgePadding": 30,
-      autoplay : true,
-    autoplayButtonOutput : false,
-    "mouseDrag" : true,
-    },
-    "600": {
-        "items": 3,
-    }
-    }
-  });
-
-
-  window.sr = ScrollReveal({reset: true})
-sr.reveal('.nav-list',  {duration: 300});
-sr.reveal('.my-slider',  {duration: 3290});
-
-
-
-  class MobileNavbar {
+class MobileNavbar {
     constructor(mobileMenu, navList, navLinks) {
       this.mobileMenu = document.querySelector(mobileMenu);
       this.navList = document.querySelector(navList);
